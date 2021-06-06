@@ -1,0 +1,27 @@
+{
+  "name": "Nuxt-Vuetify-Setup",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "vetur-init": "vue-int --input ./components --output vetur --recursive"
+  },
+  "vetur": {
+    "tags": "vetur/tags.json",
+    "attributes": "vetur/attributes.json"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/pwa": "^3.3.5",
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.3",
+    "nodemon": "^2.0.7",
+    "vue-intellisense": "^0.3.0"
+  }
+}
